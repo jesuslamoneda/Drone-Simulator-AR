@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2664FCC24F1760F00EA79D4 /* dron152x152.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC024F1760E00EA79D4 /* dron152x152.jpg */; };
+		A2664FCD24F1760F00EA79D4 /* dron20x20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC124F1760E00EA79D4 /* dron20x20.jpg */; };
+		A2664FCE24F1760F00EA79D4 /* dron120x120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC224F1760E00EA79D4 /* dron120x120.jpg */; };
+		A2664FCF24F1760F00EA79D4 /* dron80x80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC324F1760F00EA79D4 /* dron80x80.jpg */; };
+		A2664FD024F1760F00EA79D4 /* dron58x58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC424F1760F00EA79D4 /* dron58x58.jpg */; };
+		A2664FD124F1760F00EA79D4 /* dron29x29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC524F1760F00EA79D4 /* dron29x29.jpg */; };
+		A2664FD224F1760F00EA79D4 /* dron76x76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC624F1760F00EA79D4 /* dron76x76.jpg */; };
+		A2664FD324F1760F00EA79D4 /* dron87x87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC724F1760F00EA79D4 /* dron87x87.jpg */; };
+		A2664FD424F1760F00EA79D4 /* dron40x40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC824F1760F00EA79D4 /* dron40x40.jpg */; };
+		A2664FD524F1760F00EA79D4 /* dron180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FC924F1760F00EA79D4 /* dron180x180.jpg */; };
+		A2664FD624F1760F00EA79D4 /* dron167x167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FCA24F1760F00EA79D4 /* dron167x167.jpg */; };
+		A2664FD724F1760F00EA79D4 /* dron60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2664FCB24F1760F00EA79D4 /* dron60x60.jpg */; };
+		A2664FD924F178E500EA79D4 /* Boton Regresar a Pista 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2664FD824F178E500EA79D4 /* Boton Regresar a Pista 2.png */; };
+		A26EC9AF24F0162F00D91C02 /* Boton Regresar a Pista 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EC9AE24F0162F00D91C02 /* Boton Regresar a Pista 1.png */; };
+		A27DBFED24D0487D00192BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DBFEC24D0487D00192BCD /* AppDelegate.swift */; };
+		A27DBFEF24D0487D00192BCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DBFEE24D0487D00192BCD /* SceneDelegate.swift */; };
+		A27DBFF124D0487D00192BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DBFF024D0487D00192BCD /* ViewController.swift */; };
+		A27DBFF424D0487D00192BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27DBFF224D0487D00192BCD /* Main.storyboard */; };
+		A27DBFF624D0487F00192BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DBFF524D0487F00192BCD /* Assets.xcassets */; };
+		A27DBFF924D0487F00192BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27DBFF724D0487F00192BCD /* LaunchScreen.storyboard */; };
+		A27DC00424D0488000192BCD /* DroneSimulatorARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DC00324D0488000192BCD /* DroneSimulatorARTests.swift */; };
+		A27DC00F24D0488000192BCD /* DroneSimulatorARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DC00E24D0488000192BCD /* DroneSimulatorARUITests.swift */; };
+		A27DC01D24D048E900192BCD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DC01C24D048E900192BCD /* art.scnassets */; };
+		A28ADB5324F3E5DA00124983 /* Pista245x245.png in Resources */ = {isa = PBXBuildFile; fileRef = A28ADB5224F3E5DA00124983 /* Pista245x245.png */; };
+		A291C81024EC3126000C883C /* Parrot Bebop Lente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A291C80F24EC3126000C883C /* Parrot Bebop Lente.jpg */; };
+		A2B6A2A624D0809700130978 /* Pista Despegue Camuflaje Yo.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B6A2A524D0809700130978 /* Pista Despegue Camuflaje Yo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27DC00024D0488000192BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27DBFE124D0487C00192BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27DBFE824D0487C00192BCD;
+			remoteInfo = FlyDrone;
+		};
+		A27DC00B24D0488000192BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27DBFE124D0487C00192BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27DBFE824D0487C00192BCD;
+			remoteInfo = FlyDrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2664FC024F1760E00EA79D4 /* dron152x152.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron152x152.jpg; sourceTree = "<group>"; };
+		A2664FC124F1760E00EA79D4 /* dron20x20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron20x20.jpg; sourceTree = "<group>"; };
+		A2664FC224F1760E00EA79D4 /* dron120x120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron120x120.jpg; sourceTree = "<group>"; };
+		A2664FC324F1760F00EA79D4 /* dron80x80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron80x80.jpg; sourceTree = "<group>"; };
+		A2664FC424F1760F00EA79D4 /* dron58x58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron58x58.jpg; sourceTree = "<group>"; };
+		A2664FC524F1760F00EA79D4 /* dron29x29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron29x29.jpg; sourceTree = "<group>"; };
+		A2664FC624F1760F00EA79D4 /* dron76x76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron76x76.jpg; sourceTree = "<group>"; };
+		A2664FC724F1760F00EA79D4 /* dron87x87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron87x87.jpg; sourceTree = "<group>"; };
+		A2664FC824F1760F00EA79D4 /* dron40x40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron40x40.jpg; sourceTree = "<group>"; };
+		A2664FC924F1760F00EA79D4 /* dron180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron180x180.jpg; sourceTree = "<group>"; };
+		A2664FCA24F1760F00EA79D4 /* dron167x167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron167x167.jpg; sourceTree = "<group>"; };
+		A2664FCB24F1760F00EA79D4 /* dron60x60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dron60x60.jpg; sourceTree = "<group>"; };
+		A2664FD824F178E500EA79D4 /* Boton Regresar a Pista 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boton Regresar a Pista 2.png"; sourceTree = "<group>"; };
+		A26EC9AE24F0162F00D91C02 /* Boton Regresar a Pista 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Boton Regresar a Pista 1.png"; sourceTree = "<group>"; };
+		A27DBFE924D0487C00192BCD /* DroneSimulatorAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneSimulatorAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DBFEC24D0487D00192BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27DBFEE24D0487D00192BCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27DBFF024D0487D00192BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27DBFF324D0487D00192BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27DBFF524D0487F00192BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27DBFF824D0487F00192BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27DBFFA24D0487F00192BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27DBFFF24D0488000192BCD /* DroneSimulatorARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneSimulatorARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DC00324D0488000192BCD /* DroneSimulatorARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneSimulatorARTests.swift; sourceTree = "<group>"; };
+		A27DC00524D0488000192BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27DC00A24D0488000192BCD /* DroneSimulatorARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneSimulatorARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DC00E24D0488000192BCD /* DroneSimulatorARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneSimulatorARUITests.swift; sourceTree = "<group>"; };
+		A27DC01024D0488000192BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27DC01C24D048E900192BCD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A28ADB5224F3E5DA00124983 /* Pista245x245.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pista245x245.png; sourceTree = "<group>"; };
+		A291C80F24EC3126000C883C /* Parrot Bebop Lente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parrot Bebop Lente.jpg"; sourceTree = "<group>"; };
+		A2B6A2A524D0809700130978 /* Pista Despegue Camuflaje Yo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pista Despegue Camuflaje Yo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27DBFE624D0487C00192BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DBFFC24D0488000192BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DC00724D0488000192BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2664FBE24F16BAF00EA79D4 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				A2664FBF24F175EB00EA79D4 /* IconoApp */,
+				A26EC9AE24F0162F00D91C02 /* Boton Regresar a Pista 1.png */,
+				A28ADB5224F3E5DA00124983 /* Pista245x245.png */,
+				A2664FD824F178E500EA79D4 /* Boton Regresar a Pista 2.png */,
+				A291C80F24EC3126000C883C /* Parrot Bebop Lente.jpg */,
+				A2B6A2A524D0809700130978 /* Pista Despegue Camuflaje Yo.png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		A2664FBF24F175EB00EA79D4 /* IconoApp */ = {
+			isa = PBXGroup;
+			children = (
+				A2664FC124F1760E00EA79D4 /* dron20x20.jpg */,
+				A2664FC524F1760F00EA79D4 /* dron29x29.jpg */,
+				A2664FC824F1760F00EA79D4 /* dron40x40.jpg */,
+				A2664FC424F1760F00EA79D4 /* dron58x58.jpg */,
+				A2664FCB24F1760F00EA79D4 /* dron60x60.jpg */,
+				A2664FC624F1760F00EA79D4 /* dron76x76.jpg */,
+				A2664FC324F1760F00EA79D4 /* dron80x80.jpg */,
+				A2664FC724F1760F00EA79D4 /* dron87x87.jpg */,
+				A2664FC224F1760E00EA79D4 /* dron120x120.jpg */,
+				A2664FC024F1760E00EA79D4 /* dron152x152.jpg */,
+				A2664FCA24F1760F00EA79D4 /* dron167x167.jpg */,
+				A2664FC924F1760F00EA79D4 /* dron180x180.jpg */,
+			);
+			path = IconoApp;
+			sourceTree = "<group>";
+		};
+		A27DBFE024D0487C00192BCD = {
+			isa = PBXGroup;
+			children = (
+				A27DBFEB24D0487C00192BCD /* DroneSimulatorAR */,
+				A27DC00224D0488000192BCD /* DroneSimulatorARTests */,
+				A27DC00D24D0488000192BCD /* DroneSimulatorARUITests */,
+				A27DBFEA24D0487C00192BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27DBFEA24D0487C00192BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27DBFE924D0487C00192BCD /* DroneSimulatorAR.app */,
+				A27DBFFF24D0488000192BCD /* DroneSimulatorARTests.xctest */,
+				A27DC00A24D0488000192BCD /* DroneSimulatorARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27DBFEB24D0487C00192BCD /* DroneSimulatorAR */ = {
+			isa = PBXGroup;
+			children = (
+				A2664FBE24F16BAF00EA79D4 /* Imagenes */,
+				A27DC01C24D048E900192BCD /* art.scnassets */,
+				A27DBFEC24D0487D00192BCD /* AppDelegate.swift */,
+				A27DBFEE24D0487D00192BCD /* SceneDelegate.swift */,
+				A27DBFF024D0487D00192BCD /* ViewController.swift */,
+				A27DBFF224D0487D00192BCD /* Main.storyboard */,
+				A27DBFF524D0487F00192BCD /* Assets.xcassets */,
+				A27DBFF724D0487F00192BCD /* LaunchScreen.storyboard */,
+				A27DBFFA24D0487F00192BCD /* Info.plist */,
+			);
+			path = DroneSimulatorAR;
+			sourceTree = "<group>";
+		};
+		A27DC00224D0488000192BCD /* DroneSimulatorARTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27DC00324D0488000192BCD /* DroneSimulatorARTests.swift */,
+				A27DC00524D0488000192BCD /* Info.plist */,
+			);
+			path = DroneSimulatorARTests;
+			sourceTree = "<group>";
+		};
+		A27DC00D24D0488000192BCD /* DroneSimulatorARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27DC00E24D0488000192BCD /* DroneSimulatorARUITests.swift */,
+				A27DC01024D0488000192BCD /* Info.plist */,
+			);
+			path = DroneSimulatorARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27DBFE824D0487C00192BCD /* DroneSimulatorAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DC01324D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorAR" */;
+			buildPhases = (
+				A27DBFE524D0487C00192BCD /* Sources */,
+				A27DBFE624D0487C00192BCD /* Frameworks */,
+				A27DBFE724D0487C00192BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneSimulatorAR;
+			productName = FlyDrone;
+			productReference = A27DBFE924D0487C00192BCD /* DroneSimulatorAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27DBFFE24D0488000192BCD /* DroneSimulatorARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DC01624D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorARTests" */;
+			buildPhases = (
+				A27DBFFB24D0488000192BCD /* Sources */,
+				A27DBFFC24D0488000192BCD /* Frameworks */,
+				A27DBFFD24D0488000192BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27DC00124D0488000192BCD /* PBXTargetDependency */,
+			);
+			name = DroneSimulatorARTests;
+			productName = FlyDroneTests;
+			productReference = A27DBFFF24D0488000192BCD /* DroneSimulatorARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27DC00924D0488000192BCD /* DroneSimulatorARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DC01924D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorARUITests" */;
+			buildPhases = (
+				A27DC00624D0488000192BCD /* Sources */,
+				A27DC00724D0488000192BCD /* Frameworks */,
+				A27DC00824D0488000192BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27DC00C24D0488000192BCD /* PBXTargetDependency */,
+			);
+			name = DroneSimulatorARUITests;
+			productName = FlyDroneUITests;
+			productReference = A27DC00A24D0488000192BCD /* DroneSimulatorARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27DBFE124D0487C00192BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = UPSA;
+				TargetAttributes = {
+					A27DBFE824D0487C00192BCD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A27DBFFE24D0488000192BCD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A27DBFE824D0487C00192BCD;
+					};
+					A27DC00924D0488000192BCD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A27DBFE824D0487C00192BCD;
+					};
+				};
+			};
+			buildConfigurationList = A27DBFE424D0487C00192BCD /* Build configuration list for PBXProject "DroneSimulatorAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27DBFE024D0487C00192BCD;
+			productRefGroup = A27DBFEA24D0487C00192BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27DBFE824D0487C00192BCD /* DroneSimulatorAR */,
+				A27DBFFE24D0488000192BCD /* DroneSimulatorARTests */,
+				A27DC00924D0488000192BCD /* DroneSimulatorARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27DBFE724D0487C00192BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2664FCD24F1760F00EA79D4 /* dron20x20.jpg in Resources */,
+				A2664FD324F1760F00EA79D4 /* dron87x87.jpg in Resources */,
+				A2B6A2A624D0809700130978 /* Pista Despegue Camuflaje Yo.png in Resources */,
+				A2664FD724F1760F00EA79D4 /* dron60x60.jpg in Resources */,
+				A2664FCC24F1760F00EA79D4 /* dron152x152.jpg in Resources */,
+				A27DBFF924D0487F00192BCD /* LaunchScreen.storyboard in Resources */,
+				A291C81024EC3126000C883C /* Parrot Bebop Lente.jpg in Resources */,
+				A2664FD124F1760F00EA79D4 /* dron29x29.jpg in Resources */,
+				A2664FD924F178E500EA79D4 /* Boton Regresar a Pista 2.png in Resources */,
+				A2664FCF24F1760F00EA79D4 /* dron80x80.jpg in Resources */,
+				A2664FCE24F1760F00EA79D4 /* dron120x120.jpg in Resources */,
+				A26EC9AF24F0162F00D91C02 /* Boton Regresar a Pista 1.png in Resources */,
+				A27DBFF624D0487F00192BCD /* Assets.xcassets in Resources */,
+				A28ADB5324F3E5DA00124983 /* Pista245x245.png in Resources */,
+				A2664FD524F1760F00EA79D4 /* dron180x180.jpg in Resources */,
+				A2664FD024F1760F00EA79D4 /* dron58x58.jpg in Resources */,
+				A2664FD224F1760F00EA79D4 /* dron76x76.jpg in Resources */,
+				A27DBFF424D0487D00192BCD /* Main.storyboard in Resources */,
+				A2664FD624F1760F00EA79D4 /* dron167x167.jpg in Resources */,
+				A27DC01D24D048E900192BCD /* art.scnassets in Resources */,
+				A2664FD424F1760F00EA79D4 /* dron40x40.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DBFFD24D0488000192BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DC00824D0488000192BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27DBFE524D0487C00192BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DBFF124D0487D00192BCD /* ViewController.swift in Sources */,
+				A27DBFED24D0487D00192BCD /* AppDelegate.swift in Sources */,
+				A27DBFEF24D0487D00192BCD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DBFFB24D0488000192BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DC00424D0488000192BCD /* DroneSimulatorARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DC00624D0488000192BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DC00F24D0488000192BCD /* DroneSimulatorARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27DC00124D0488000192BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27DBFE824D0487C00192BCD /* DroneSimulatorAR */;
+			targetProxy = A27DC00024D0488000192BCD /* PBXContainerItemProxy */;
+		};
+		A27DC00C24D0488000192BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27DBFE824D0487C00192BCD /* DroneSimulatorAR */;
+			targetProxy = A27DC00B24D0488000192BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27DBFF224D0487D00192BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27DBFF324D0487D00192BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27DBFF724D0487F00192BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27DBFF824D0487F00192BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27DC01124D0488000192BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27DC01224D0488000192BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27DC01424D0488000192BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorAR;
+				PRODUCT_NAME = DroneSimulatorAR;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27DC01524D0488000192BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorAR;
+				PRODUCT_NAME = DroneSimulatorAR;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27DC01724D0488000192BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneSimulatorAR.app/DroneSimulatorAR";
+			};
+			name = Debug;
+		};
+		A27DC01824D0488000192BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneSimulatorAR.app/DroneSimulatorAR";
+			};
+			name = Release;
+		};
+		A27DC01A24D0488000192BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DroneSimulatorAR;
+			};
+			name = Debug;
+		};
+		A27DC01B24D0488000192BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F3JU3LH84;
+				INFOPLIST_FILE = DroneSimulatorARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.upsa.DroneSimulatorARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DroneSimulatorAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27DBFE424D0487C00192BCD /* Build configuration list for PBXProject "DroneSimulatorAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DC01124D0488000192BCD /* Debug */,
+				A27DC01224D0488000192BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DC01324D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DC01424D0488000192BCD /* Debug */,
+				A27DC01524D0488000192BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DC01624D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DC01724D0488000192BCD /* Debug */,
+				A27DC01824D0488000192BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DC01924D0488000192BCD /* Build configuration list for PBXNativeTarget "DroneSimulatorARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DC01A24D0488000192BCD /* Debug */,
+				A27DC01B24D0488000192BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27DBFE124D0487C00192BCD /* Project object */;
+}

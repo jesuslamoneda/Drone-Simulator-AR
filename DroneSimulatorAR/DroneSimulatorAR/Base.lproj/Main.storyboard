@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DroneSimulatorAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpK-28-4Xn">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iYa-cN-cr9" appends="YES" id="SGw-78-mY1"/>
+                                </connections>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6E3-SC-vTh" userLabel="bajar">
+                                <rect key="frame" x="156" y="687.5" width="113" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1499558091" green="0.48048096899999998" blue="0.77872312070000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="arrow.down.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="button_bajar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kbj-Wu-YiC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e95-G3-9n1">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSa-CB-X7W" userLabel="subir">
+                                <rect key="frame" x="159" y="442.5" width="113" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15047812460000001" green="0.4800335765" blue="0.77497726680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="arrow.up.circle" catalog="system">
+                                    <color key="titleColor" red="0.21729010339999999" green="0.57293510439999995" blue="0.74847549199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button_elevar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zsd-gx-UY4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFq-km-G7i" userLabel="regresar_a_casa">
+                                <rect key="frame" x="160" y="563" width="110" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" backgroundImage="Boton Regresar a Pista 2.png"/>
+                                <connections>
+                                    <action selector="regresar_a_plataforma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRP-Ih-OdF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBS-qA-FkV" userLabel="rotar_der">
+                                <rect key="frame" x="293" y="576.5" width="108" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.15047812460000001" green="0.4800335765" blue="0.77497726680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="arrow.turn.up.right" catalog="system"/>
+                                <connections>
+                                    <action selector="button_rotar_derecha:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tdB-7z-9y9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgC-JG-0lB" userLabel="rotar_izq">
+                                <rect key="frame" x="30" y="576" width="108" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1499558091" green="0.48048096899999998" blue="0.77872312070000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="arrow.turn.up.left" catalog="system"/>
+                                <connections>
+                                    <action selector="button_rotar_izquierda:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kE0-xp-z1t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lpK-28-4Xn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GzL-Jb-2B3"/>
+                            <constraint firstItem="lpK-28-4Xn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XaE-vI-frw"/>
+                            <constraint firstItem="lpK-28-4Xn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Zja-rh-sr5"/>
+                            <constraint firstItem="lpK-28-4Xn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jp2-ul-qYv"/>
+                            <constraint firstItem="lpK-28-4Xn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ksY-lf-ywQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label_mostrar_info" destination="e95-G3-9n1" id="9rO-JM-yxA"/>
+                        <outlet property="sceneView" destination="lpK-28-4Xn" id="FGM-2b-8Ck"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="iYa-cN-cr9">
+                    <connections>
+                        <action selector="swipeUpGesture:" destination="BYZ-38-t0r" id="RBu-hR-8WX"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.66666666666666" y="128.88888888888889"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Boton Regresar a Pista 2.png" width="17064" height="17280"/>
+        <image name="arrow.down.circle" catalog="system" width="64" height="60"/>
+        <image name="arrow.turn.up.left" catalog="system" width="64" height="48"/>
+        <image name="arrow.turn.up.right" catalog="system" width="64" height="48"/>
+        <image name="arrow.up.circle" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
